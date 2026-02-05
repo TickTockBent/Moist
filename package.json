@@ -1,0 +1,37 @@
+{
+  "name": "@ticktockbent/moist",
+  "version": "1.0.0",
+  "description": "Gmail MCP Connector - Neither rain nor snow nor stranded tokens shall stay this messenger.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "moist": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "gmail",
+    "mcp",
+    "model-context-protocol",
+    "email",
+    "oauth"
+  ],
+  "author": "TickTockBent",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "googleapis": "^146.0.0",
+    "open": "^10.1.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
